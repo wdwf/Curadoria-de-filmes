@@ -23,7 +23,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Vue](https://vuejs.org/)
 - [Sass](https://sass-lang.com/documentation/syntax)
 
-## Contribuição
 
 ## Autor
 
@@ -55,9 +54,5 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # 👨‍💻Desenvolvedor
+<p>Desenvolvido por <a href="https://www.linkedin.com/in/weslley-ferreira-61a75a188/">Weslley Ferreira de Moraes</a></p>
 
-<a href="https://www.linkedin.com/in/weslley-ferreira-61a75a188/">
-	<img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/28903617/100930486-ecbede00-34c7-11eb-88a1-223188f00131.png" width="100px;" alt=""/>
- 	<br />
-	<p>Desenvolvido por <a href="https://www.linkedin.com/in/weslley-ferreira-61a75a188/">Weslley Ferreira de Moraes</a></p>
-</a>
