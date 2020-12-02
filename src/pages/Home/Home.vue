@@ -1,5 +1,5 @@
 <template>
-  <div class="home" v-if="movies.length > 1">
+  <div class="home" id="home-id" v-if="movies.length > 1">
     <Modal class="componentModal" />
 
     <div class="home__movie-container wh">

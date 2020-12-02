@@ -6,7 +6,7 @@
             </div>
             <h2>FILMES CURTIDOS</h2>
 
-            <div class="like__sequence" v-if="moviesLike.length > 1">
+            <div class="like__sequence" v-if="moviesLike.length != 1">
                 <div class="like__film">
                     <!-- <img src="" alt=""> -->
                     <div class="like__title wh">
@@ -105,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <div class="like__notLikeMovie" v-if="moviesLike.length < 1">
+            <div class="like__notLikeMovie" v-if="moviesLike.length > 1">
                 <img src="../../assets/video-camera-vazio.png">
                 <h2>NENHUM FILME</h2>
             </div>

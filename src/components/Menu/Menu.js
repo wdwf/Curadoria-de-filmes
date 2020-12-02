@@ -7,15 +7,20 @@ export default {
             let home = document.querySelector(".home");
 
             if (menu.style.width == "250px") {
-                menu.style.width = "0px";
+                menu.style.width = "0";
                 menubtn.style.marginLeft = "0";
-                home.style.marginLeft= "0";
+                if(home) {
+                    home.style.marginLeft = "0";
+                }
                 
             } else {
                 menu.style.width = "250px";
                 menubtn.style.marginLeft = "250px";
-                home.style.marginLeft = "250px";
+                if(home) {
+                    home.style.marginLeft = "250px";
+                }
             }
+            
         }
     }
 }

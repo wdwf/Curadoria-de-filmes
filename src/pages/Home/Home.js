@@ -50,7 +50,6 @@ export default {
         nextFilms () {
             if (this.pageNumber < this.movies.length-1) {
                 this.pageNumber++;
-                console.log(this.pageNumber);
             }
             else {
                 this.created(this.reqPage++);
