@@ -9,7 +9,6 @@ export default {
     components: {
         Modal
     },
-
     data: () => ({
             pageNumber: 0,
             movies: [],
