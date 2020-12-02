@@ -1,0 +1,151 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    transition: margin-left .5s;
+    
+    .home__movie-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color:  rgba($color:  $BG_Red, $alpha: 0.75);
+        
+
+        
+        .home__logo {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+
+        .home__movie {
+            width: 294px;
+            height: 350px;
+            //background-color: black;
+            position: relative;
+
+            .home__img {
+                z-index: 10;
+                position: absolute;
+                // width: 100%;
+                // height: 100%;
+                border-radius: 6px;
+                object-fit: cover;
+            }
+
+            .home__component-descript {
+                z-index: 20;
+                position: absolute;
+                // width: 100%;
+                // height: 100%;
+                border-radius: 6px;
+                background: linear-gradient(0deg, rgba(121, 120, 120, 0.9) 10%, rgba(254, 254, 254, 0) 70%);
+                display: flex;
+                align-items: flex-end;
+
+                .home__sub-descript {
+                    padding: 0 10px 25px 20px;
+                    // width: 100%;
+                    height: 100px;
+                    
+
+                    h2 {
+                        font-size: 1.2em;
+                        font-weight: 700;
+                        color:  $LT_White;
+                        width: 100%;
+                    }
+
+                    .home__favorite {
+                        width: 100%;
+                        margin-top: 15px;
+                        display: flex;
+                        position: relative;
+
+                        ul {
+                            display: flex;
+                        }
+                        p {
+                            position: absolute;
+                            right: 0;
+                            color: $LT_White;
+                        }
+                    }
+                    .home__overview {
+                        display: flex;
+                        width: 100%;
+                        margin-top: 20px;
+                        position: relative;
+                        
+                        p {
+                            color: $LT_White;
+                            //font-size: .90em;
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                        
+                        button {
+                            color:  $LT_Red;
+                            background-color: transparent;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 24px;
+                            text-decoration: underline;
+                            position: absolute;
+                            right: 0;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        .home__buttons {
+            width: 100%;
+            height: 100px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            
+
+            .btn-curtir {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 70px;
+                height: 70px;
+                background-color:  $BG_White;  
+                border-radius: 50%; 
+
+                img {
+                    width: 40%;
+                    height: 40%;
+                }
+            }
+            .pular {
+                width: 100px;
+                height: 70px;
+                margin: 0 25px;
+                border-radius: 100px;
+                background-color:  $BG_White;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $LT_darkGrey;
+                font-weight: 800;
+            }
+        }
+    }
+
+    .home__background {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -10;
+        top: 0;
+    }
+}

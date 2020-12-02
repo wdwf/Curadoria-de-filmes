@@ -1,0 +1,17 @@
+.pageNotFound {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    transition: margin-left .5s;
+
+    .pageNotFound__logo {
+        width: 100%;
+        height: 90px;
+        background-color:$BG_PinkSecundary;
+    }
+
+    .imgPageFound {
+        margin-top: 100px;
+        width: 100%;
+    }
+}

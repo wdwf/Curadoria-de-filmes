@@ -1,0 +1,44 @@
+.menu {
+    position: absolute;
+    z-index: 500;
+    top: 6%;
+    left: 5%;
+
+    .menu__openbtn {
+        width: 20px;
+        height: 20px;
+        transition: 0.5s;
+    }
+
+    .menu__sideMenu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 140px;
+        
+        a {
+            padding: 8px 8px 8px 32px;
+            font-size: 1em;
+            color:  $LT_White;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            white-space:nowrap;
+            margin-top: 30px;
+            display: block;
+            transition: 0.3s;
+            font-weight: 800;
+            
+            &:hover {
+                color: #f1f1f1;
+            }
+        }
+    }
+    
+}
