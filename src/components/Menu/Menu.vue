@@ -5,7 +5,7 @@
         </div>
 
         <div id="sideMenu" class="menu__sideMenu">
-            <a href="/" class="menu__selecionado">FILMES NÃO CURADOS</a>
+            <a href="/">FILMES NÃO CURADOS</a>
             <a href="/curtidos">FILMES CURTIDOS</a>
             <a href="/naocurtidos" >FILMES NÃO CURTIDOS</a>
         </div>

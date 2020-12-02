@@ -11,7 +11,7 @@
         }
 
         .menu__sideMenu {
-            width: 100%;
+            width: 100% !important;
             height: 10%;
             padding:0;
             display: flex;
@@ -25,15 +25,22 @@
                 font-weight: 100;
                 font-size: .95em;
                 margin: 0 10px;
+                text-align: center;
+                padding: 5px 20px ;
+
+                &:hover {
+                    border-bottom: 5px solid $BD_White;
+                }
             }
 
             .menu__selecionado {
                 font-weight: 500;
                 font-size: .95em;
                 display: inline-table;  
-                border-bottom: 5px solid $BD_White;
                 padding: 10px 0 0 0;
+
             }
+
         }
     }
 }

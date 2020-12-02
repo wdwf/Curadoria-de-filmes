@@ -1,10 +1,8 @@
 <template>
   <div class="home" v-if="movies.length > 1">
-
     <Modal class="componentModal" />
 
     <div class="home__movie-container wh">
-
       <div class="home__logo">
         <img src="../../assets/logo-viva-decora.png" alt="" srcset="">
       </div>
@@ -46,15 +44,8 @@
         </button>
       </div>
 
-      <h1> {{ counter }} </h1>
-    <button @click="decrement">Decremento</button>
-    <button @click="increment">Incremento</button>
-    
-
     </div>
     <img class="home__background" v-bind:src="link + currentFilm.backdrop_path">
-    <!-- {{movies[0]}} -->
-
   </div>
   
 </template>

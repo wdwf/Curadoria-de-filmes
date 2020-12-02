@@ -1,5 +1,4 @@
-//import { store } from '@/pages/Home/Home.js'
-//import { store } from '@/main.js'
+import { mapGetters } from 'vuex';
 
 export default { 
     name: 'Modal',
@@ -9,7 +8,8 @@ export default {
         },
         movieTitle () {
             return this.movies[0].original_title.toUpperCase()
-        }
+        },
+        ...mapGetters (['link'])
     },
     methods: {
         closeModal () {

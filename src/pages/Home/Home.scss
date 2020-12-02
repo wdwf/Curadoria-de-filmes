@@ -108,7 +108,6 @@
             margin-top: 20px;
             display: flex;
             justify-content: center;
-            cursor: pointer;
             
 
             .btn-curtir {
@@ -119,11 +118,22 @@
                 height: 70px;
                 background-color:  $BG_White;  
                 border-radius: 50%; 
+                cursor: pointer;
 
                 img {
                     width: 40%;
                     height: 40%;
+                    transition: .2s;
                 }
+
+                &:hover {
+                    img {
+                        width: 45%;
+                        height: 45%;
+                    }
+                    
+                }
+
             }
             .pular {
                 width: 100px;
@@ -136,6 +146,7 @@
                 align-items: center;
                 color: $LT_darkGrey;
                 font-weight: 800;
+                cursor: pointer;
             }
         }
     }
