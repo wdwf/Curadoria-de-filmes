@@ -11,3 +11,27 @@
         }
     }
 }
+
+@media (min-width: 770px) {
+    .home {
+        .home__movie-container {
+            .home__logo {
+                margin-bottom: 100px;
+            }
+            .home__movie {
+                width:37%;
+                height: 73%;
+
+                .home__component-descript {
+                    .home__sub-descript {
+                        .home__overview {
+                            p,button {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

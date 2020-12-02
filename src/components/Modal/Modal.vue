@@ -2,7 +2,8 @@
     <div class="modal display-FJA wh display-N">
         <div class="modal__container">
             <span class="modal__close" v-on:click="closeModal">&times;</span>
-            <span class="img">
+            <span class="modal__img">
+                <img src="../../assets/cinema.jpg">
             </span>
             <div class="modal__description"> 
                 <h2>TITLE MOVIE</h2>

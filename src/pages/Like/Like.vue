@@ -8,7 +8,7 @@
 
             <div class="like__sequence" v-if="moviesLike.length != 1">
                 <div class="like__film">
-                    <!-- <img src="" alt=""> -->
+                    <img src="../../assets/homem-aranha.jpg">
                     <div class="like__title wh">
                         <h3>TITLE</h3>
                         <ul>
@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="like__film">
-                    <!-- <img src="" alt=""> -->
+                    <img src="../../assets/homem-aranha.jpg">
                     <div class="like__title wh">
                         <h3>TITLE</h3>
                         <ul>
@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="like__film">
-                    <!-- <img src="" alt=""> -->
+                    <img src="../../assets/homem-aranha.jpg">
                     <div class="like__title wh">
                         <h3>TITLE</h3>
                         <ul>
@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="like__film">
-                    <!-- <img src="" alt=""> -->
+                    <img src="../../assets/homem-aranha.jpg">
                     <div class="like__title wh">
                         <h3>TITLE</h3>
                         <ul>
@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="like__film">
-                    <!-- <img src="" alt=""> -->
+                    <img src="../../assets/homem-aranha.jpg">
                     <div class="like__title wh">
                         <h3>TITLE</h3>
                         <ul>
@@ -78,7 +78,7 @@
                 </div>
 
                 <div class="like__film">
-                    <!-- <img src="" alt=""> -->
+                    <img src="../../assets/homem-aranha.jpg">
                     <div class="like__title wh">
                         <h3>TITLE</h3>
                         <ul>
@@ -92,7 +92,7 @@
                 </div>
 
                 <div class="like__film">
-                    <!-- <img src="" alt=""> -->
+                    <img src="../../assets/homem-aranha.jpg">
                     <div class="like__title wh">
                         <h3>TITLE</h3>
                         <ul>

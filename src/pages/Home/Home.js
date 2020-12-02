@@ -2,8 +2,6 @@ import { api } from '@/methods/index.js';
 
 import Modal from '@/components/Modal/Modal.vue';
 
-import { mapGetters, mapActions } from 'vuex';
-
 export default {
     name: 'Home',
     components: {
@@ -17,13 +15,9 @@ export default {
         }),
 
     computed: {
-        count () {
-            return this.$store.state.count;
-        },
         currentFilm () {
             return this.movies[this.pageNumber]; 
-        },
-        ...mapGetters (['counter'])
+        }
     },
 
     methods: {
@@ -36,9 +30,6 @@ export default {
             catch (e) {
                 this.errors.push(e);
             }
-        },
-        teste () {
-            alert("funfa")
         },
         openModal () {
             let modal = document.querySelector(".componentModal");
@@ -56,11 +47,10 @@ export default {
                 this.pageNumber = 0;
             }
         },
-        ...mapActions (['decrement', 'increment']) 
     },
 
     mounted (){
-        this.created(this.reqPage++);
+        this.created(this.reqPage++)
     }
 
     
