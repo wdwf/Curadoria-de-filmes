@@ -1,5 +1,3 @@
-import { mapGetters } from 'vuex';
-
 export default { 
     name: 'Modal',
     computed: {
@@ -9,7 +7,6 @@ export default {
         movieTitle () {
             return this.movies[0].original_title.toUpperCase()
         },
-        ...mapGetters (['link'])
     },
     methods: {
         closeModal () {
@@ -18,7 +15,6 @@ export default {
             menu.classList.remove("display-N");
             modal.classList.remove("display-FJA");
             modal.classList.add("display-N");
-            //console.log(this.$store.state.count);
         }
     }
 }

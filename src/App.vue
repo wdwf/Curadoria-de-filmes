@@ -29,9 +29,6 @@ export default {
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* position: fixed;
-  top: 0;
-  left: 0; */
 }
 </style>
 
