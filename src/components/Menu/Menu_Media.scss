@@ -1,0 +1,48 @@
+@media (min-width: 700px) {
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        left: 0;
+        top: 0;
+
+        .menu__openbtn {
+            display: none;
+        }
+
+        .menu__sideMenu {
+            width: 100%;
+            height: 10%;
+            padding:0;
+            display: flex;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            margin-top: 10%;
+            position: initial;
+
+            a {
+                font-weight: 100;
+                font-size: .95em;
+                margin: 0 10px;
+            }
+
+            .menu__selecionado {
+                font-weight: 500;
+                font-size: .95em;
+                display: inline-table;  
+                border-bottom: 5px solid $BD_White;
+                padding: 10px 0 0 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 750px) {
+    .menu {
+
+        .menu__sideMenu {
+            margin-top: 100px;
+        }
+    }
+}
